@@ -1,6 +1,7 @@
 = (recebe)
 null (nulo)
 typeof
++ (concatenação)
 
 
 Exemplo:
@@ -29,6 +30,11 @@ IDENTIFICADORES:
 - É possível usar acentos e símbolos
 - Não podem conter espaços
 - Não podem ser palavras reservadas (var var)
+
+
+
+var nome = window.prompt('Qual é seu nome?')
+window.alert('É um grande prazer em te conhecer, ' + nome + '!')
 
 
 
