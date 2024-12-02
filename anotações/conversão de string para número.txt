@@ -1,0 +1,17 @@
+Number.parseInt(n) = número real para número inteiro
+Number.parseFloat(n) = converter para real
+Number(n) = o próprio Visual Studio Code já identifica se é número inteiro ou real.
+
+
+Exemplo:
+var n1 = Number.parseInt(window.prompt('Digite um núemro: ')) 
+var n2 = Number.parseInt(window.prompt('Digite outro número: ')) 
+var s = n1 + n2
+window.alert('A soma dos valores é ' + s)
+
+
+
+Conversão de Número para String
+
+String(n)
+n.toString()

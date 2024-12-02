@@ -1,0 +1,143 @@
+aritméticos:
+
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1      (resto da divisão inteira)
+5 ** 2 = 25   (potência) (5 ao  quadrado)
+
+Ordem de precedência dos operadores aritméticos
+
+()
+**
+* / %
++ -
+
+
+
+atribuição simples:
+
+var a = 5 + 3                 8
+var b = a % 5                 3
+var c = 5 * b ** 2            45
+var d = 10 - a / 2            6 
+var e = 6 * 2 / d             2
+var f = b % e + 4 / e         3
+
+
+auto-atribuições:
+
+var n = 3     (o n vai deixar de ser 3 e passa a valer 7)
+n = n + 4      7
+
+
+simplificando:
+
+var n = 3    
+n = n + 4    n += 4
+n = n - 5    n -= 5
+n = n * 4    n *= 4
+n = n / 2    n /= 2
+n = n ** 2   n **= 2
+n = n % 5    n %= 5
+
+
+incremento:
+
+var x = 5   
+x = x + 1    x ++
+x = x - 1    x --
+
+
+relacionais:
+
+5 > 2 --> true     ( > = maior )
+7 < 4 --> false    ( < = menor )
+8 >= 8 --> true    ( >= = maior ou igual)
+9 <= 7 --> false   ( <= = menor ou igual)
+5 == 5 --> true    ( == = igual)
+4 != 4 --> false   ( != = diferente)
+
+
+identidade:     
+
+5 == 5 --> true
+5 == '5' --> true     ( o JS diz que sim )
+5 === '5' --> false   ( valores identicos, do mesmo tipo )
+5 === 5 --> true
+
+
+
+lógicos:
+
+!     ( negação = não )
+&&    ( conjunção = e )
+||    ( disjunção = ou )
+
+( ordem de execução: 1ª 'não', 2ª 'e' e 3ª 'ou' )
+
+
+! --> true / false
+
+true && true --> true
+true && false --> false
+false && true --> false 
+false && false --> false
+
+true || true --> true
+true || false --> true
+false || true --> true
+false || false --> false
+
+
+Exemplo: a > b && b % 2 == 0   
+
+( primeiro fazer todos os operadores aritméticos, depois os relacionais e depois os lógicos )
+
+
+Exemplo: 
+
+idade >= 15 && idade <= 17     ( a idade está entre 15 e 17? )
+
+estado == 'RJ' || estado == 'SP' ( o estado é RJ ou SP? )
+
+salário > 1500 && sexo != 'M'   ( o salário é acima de 1500 e não é homem? )
+
+
+ordem de precedência
+() ** / ...
+> < >= ...    ( não tem ordem de precedência )
+!    ( não )
+&&   ( e )
+||   ( ou )
+
+
+
+ternário:
+
+? :
+
+teste ? true : false
+
+média >= 7.0?"Aprovado":"Reprovado"
+
+
+Exemplo:
+
+> var x = 8
+undefined
+> var res = x % 2 == 0 ? 5 : 9
+undefined
+> x
+8
+> res
+5
+> var idade = 19
+undefined
+> var r = idade >= 18 ? 'MAIOR' : 'MENOR'
+undefined
+> r
+'MAIOR'
+>
+

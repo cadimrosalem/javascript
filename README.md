@@ -1,2 +1,2 @@
 # javascript
- Estou começando em JS
+ aprendendo a programar em javascript

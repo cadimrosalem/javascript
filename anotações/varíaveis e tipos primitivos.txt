@@ -1,0 +1,43 @@
+= (recebe)
+null (nulo)
+typeof
++ (concatenação)
+
+
+Exemplo:
+var n1 = 8
+var n2 = 5
+
+
+
+Exemplo:
+> var n = 200
+undefined
+> typeof n
+'number'
+> n = "Google"
+'Google'
+> typeof n
+'string'
+
+
+
+
+IDENTIFICADORES:
+- Podem começar com letra, $ ou _
+- Não podem começar com números
+- É possível usar letras ou números
+- É possível usar acentos e símbolos
+- Não podem conter espaços
+- Não podem ser palavras reservadas (var var)
+
+
+
+var nome = window.prompt('Qual é seu nome?')
+window.alert('É um grande prazer em te conhecer, ' + nome + '!')
+
+
+
+
+
+

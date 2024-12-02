@@ -1,0 +1,5 @@
+var n1 = 1545.5
+
+n1.toFixed(2)
+
+n1.toLocaleString('pt-BR', {stlye: 'currency', currency: 'BRL'})
