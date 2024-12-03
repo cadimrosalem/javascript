@@ -69,3 +69,74 @@ Exemplo:
         
     </script>
 </body>
+
+
+
+
+Eventos DOM:
+
+onclick => disparado quando recebe um click
+ondblclick => disparado quando click duplo
+onmouseover => disparado quando o mouse está sobre
+onmouseout => disparado quando o mouse sai do objeto
+onmousemove => disparado quando o mouse é movido no elemento
+onmousedown => disparado quando o click do botão for pressionado
+onmouseup = > disparado quando o click do mouse é solto
+onfocus => disparado quando o elemento recebe o foco. Válido para input
+onchange => disparado quando há uma mudança no conteúdo. "Ao mudar"
+onblur => disparado quando o elemento perde o foco
+onkeydown => disparado quando uma tecla é pressionada
+onkeypress => disparado quando uma tecla é pressionada e solta
+onkeyup => disparado quando uma tecla é solta sobre o elemento
+onload => disparado quando a página terminou de ser carregada. Body
+onresize => disparado quando há um redimencionamento da janela
+
+
+
+Funções:
+
+function ação(param) {
+
+bloco
+
+}
+
+
+Exemplo:
+
+
+ <title>Somando Números</title>
+    <style>
+        body {
+            font: normal 1.2em Arial;
+        }
+
+        input {
+            font: normal 1.2em Arial;
+            width: 100px;
+        }
+
+        div#res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()">
+
+    <div id="res">Resultado</div>
+
+    <script>
+        function somar(){
+            var tntn1 = window.document.getElementById('txtn1')
+            var tntn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(txtn1.value)
+            var n2 = Number(txtn2.value)
+            var s = n1 + n2
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>.`
+        }
+    </script>
