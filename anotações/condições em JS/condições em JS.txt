@@ -1,0 +1,22 @@
+Sequências:
+
+var n = 3
+
+n += 2
+
+window.alert(n)
+
+
+
+
+Condições:    ( if = se / else = se não )
+
+if (condição) {
+
+    true
+
+} else {
+
+    false
+
+}

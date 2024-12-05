@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Qual seu país de origem? 
+    <input type="text" name="txtn1" id="txtn1">
+    <input type="button" value="checar" onclick="consultar()">
+
+    <div id="msg"></div>
+    <div id="res"></div>
+
+    <script>
+        var n = window.prompt('Qual seu nome?')
+        function consultar(){
+            var Brasil = 'Brasil'
+            var txtbr = window.document.getElementById('txtn1')
+            var msg = window.document.getElementById('msg')
+            var país = (txtbr.value)
+            msg.innerHTML = `<p>Você tem nacionalidade da(o) <strong>${país}</strong></p>`
+
+          
+        }
+    </script>
+</body>
+</html>
