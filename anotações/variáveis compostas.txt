@@ -1,0 +1,1 @@
+Um array ou um vetor ou uma variável composta é uma variável que tem vários elementos, cada elemento é composto por seu valor e por uma chave de identificação.
