@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Manipulando CSS com o DOM</title>
+  </head>
+  <body>
+    <div id="content">
+      <button id="openModalBtn1">Abrir Modal 1</button>
+      <button id="openModalBtn2">Abrir Modal 2</button>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        congue odio vitae ipsum placerat vestibulum. In hac habitasse platea
+        dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia curae; Quisque vel varius lorem, iaculis
+        pulvinar nulla. Morbi lobortis quis urna sed facilisis. Nulla facilisi.
+        Nullam in dolor interdum, euismod justo nec, aliquam mi. Cras elementum
+        eget ante in commodo. Mauris condimentum, sem quis congue vulputate,
+        massa quam facilisis erat, vitae ultricies ligula libero at mauris. Nunc
+        porta felis nec imperdiet pellentesque. Fusce eget commodo risus. Ut
+        pulvinar justo neque, quis efficitur elit dictum quis. Duis rhoncus
+        ligula id odio bibendum fringilla. Vestibulum mollis egestas sem, sit
+        amet aliquet justo. Duis suscipit maximus aliquet. Etiam hendrerit
+        bibendum egestas. Integer ultrices dui vel enim elementum, laoreet
+        interdum sapien iaculis. Praesent sed viverra risus. Praesent efficitur
+        massa sapien, et facilisis sapien tempus nec. Maecenas molestie tempus
+        mollis. Aliquam ultrices lacus vitae dui cursus, vitae dictum elit
+        molestie. Donec iaculis semper eros vestibulum volutpat. Nulla ac
+        viverra metus. Proin a mauris ut erat consequat dignissim. Proin iaculis
+        volutpat ornare. Sed vestibulum tempus fringilla. Vivamus lacinia neque
+        justo, eget maximus velit aliquam a. Mauris aliquam molestie est, eu
+        faucibus augue ullamcorper id. Aliquam commodo erat eu nunc cursus, eu
+        fermentum eros dignissim. Aliquam dolor dolor, sodales gravida rutrum
+        eget, euismod eget velit. Proin id nunc pharetra, luctus augue ac,
+        ultricies nulla. Nulla a metus luctus, suscipit quam consequat,
+        fringilla neque. Pellentesque efficitur finibus finibus. Nulla volutpat,
+        risus ac facilisis pulvinar, magna enim vehicula libero, a mollis orci
+        libero eu purus. Vestibulum in ornare lacus. Proin vel nisl nec sapien
+        mollis fermentum. Cras eget nisl scelerisque, pellentesque sapien sed,
+        auctor urna. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. Sed dignissim tempor odio, at
+        convallis magna vulputate a. Donec sodales interdum facilisis. Donec a
+        luctus sem. Integer vel ligula sed odio feugiat placerat. Donec vel
+        sodales metus. Vivamus vulputate maximus pretium. Donec non lorem vitae
+        turpis blandit dapibus. Fusce fermentum tempus quam. Nullam egestas diam
+        non neque tempor sodales. Generated 5 paragraphs, 342 words, 2387 bytes
+        of Lorem Ipsum help@lipsum.com Privacy Policy · Do Not Sell My Personal
+        Information · Change Consent
+      </p>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modalText">Texto do modal</p>
+        <button id="yesBtn">Sim</button>
+        <button id="noBtn">Não</button>
+      </div>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

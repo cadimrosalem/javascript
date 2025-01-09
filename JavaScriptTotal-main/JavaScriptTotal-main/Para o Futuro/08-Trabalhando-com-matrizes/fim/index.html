@@ -1,0 +1,157 @@
+<html>
+    <head>
+
+        <style>
+            h1 {
+                text-align: center;
+                padding-top: 50px;
+                font-family: monospace;
+                font-size: 40px;
+                color: rgb(51, 51, 51);
+            }
+            h2{
+                text-align: center;
+                font-family: monospace;
+                font-size: 25px;
+                color: rgb(51, 51, 51);
+            }            
+            .topo {
+                height: 100px;
+                background: radial-gradient(circle, rgba(193,33,241,1) 35%, rgba(122,16,181,1) 100%);
+            }
+            body{
+                margin: 0px;
+            }
+            p {
+                width: 70%;
+                margin: 0 auto;
+                text-align: center;
+                line-height: 1.7;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        
+        </style>
+
+<script>
+    const retornaNumeroPorExtenso = (numero) => {
+        if (numero === 0) {
+            return "zero";
+        }
+
+        // Forma 1
+
+        const numerosPorExtenso = [];
+        numerosPorExtenso[0] = "";
+        numerosPorExtenso[1] = "um";
+        numerosPorExtenso[2] = "dois";
+        numerosPorExtenso[3] = "três";
+        numerosPorExtenso[4] = "quatro";
+        numerosPorExtenso[5] = "cinco";
+        numerosPorExtenso[6] = "seis";
+        numerosPorExtenso[7] = "sete";
+        numerosPorExtenso[8] = "oito";
+        numerosPorExtenso[9] = "nove";
+        numerosPorExtenso[10] = "dez";
+        numerosPorExtenso[11] = "onze";
+        numerosPorExtenso[12] = "doze";
+        numerosPorExtenso[13] = "treze";
+        numerosPorExtenso[14] = "quatorze";
+        numerosPorExtenso[15] = "quinze";
+        numerosPorExtenso[16] = "dezesseis";
+        numerosPorExtenso[17] = "dezessete";
+        numerosPorExtenso[18] = "dezoito";
+        numerosPorExtenso[19] = "dezenove";
+
+
+        const dezenasPorExtenso = [];
+        dezenasPorExtenso[20] = "vinte";
+        dezenasPorExtenso[30] = "trinta";
+        dezenasPorExtenso[40] = "quarenta";
+        dezenasPorExtenso[50] = "cinquenta";
+        dezenasPorExtenso[60] = "sessenta";
+        dezenasPorExtenso[70] = "setenta";
+        dezenasPorExtenso[80] = "oitenta";
+        dezenasPorExtenso[90] = "noventa"
+
+        const centenasPorExtenso = [];
+        centenasPorExtenso[100] = "cento";
+        centenasPorExtenso[200] = "duzentos";
+        centenasPorExtenso[300] = "trezentos";
+        centenasPorExtenso[400] = "quatrocentos";
+        centenasPorExtenso[500] = "quinhentos";
+        centenasPorExtenso[600] = "seiscentos";
+        centenasPorExtenso[700] = "setecentos";
+        centenasPorExtenso[800] = "oitocentos";
+        centenasPorExtenso[900] = "novecentos";
+
+
+
+        if (numero >= 1 && numero <= 19) {
+            return numerosPorExtenso[numero];
+        }
+
+        if (numero >= 20 && numero <= 99) {
+            const unidades = numero % 10;
+            const unidadesString = numerosPorExtenso[unidades];
+
+            const dezenas = numero - unidades;
+            const dezenasString = dezenasPorExtenso[dezenas]
+
+            if (unidades === 0) {
+                return dezenasString;
+            } else {
+                return `${dezenasString} e ${unidadesString}`;
+            }
+        }
+
+        if (numero == 100){
+            return 'cem';
+        }
+
+        if (numero >= 100 && numero <= 999) {
+            const resto = numero % 100;
+            const centenas = numero - resto;
+
+            const centenasString = centenasPorExtenso[centenas];
+
+            if (resto === 0) {
+                return centenasString;
+            } else {
+                return `${centenasString} e ${retornaNumeroPorExtenso(resto)}`;
+            }
+        }        
+
+
+    };
+
+
+
+
+    console.log(retornaNumeroPorExtenso(3));
+    console.log(retornaNumeroPorExtenso(30));
+    console.log(retornaNumeroPorExtenso(33));
+    console.log(retornaNumeroPorExtenso(333));
+</script>
+        <title>Fundamentos do JavaScript</title>
+    </head>
+    <body>
+        <div class="topo">
+ 
+        </div>
+        <h1>Fundamentos do JavaScript</h1>
+
+          <h2> Bem-vindo ao curso de <strong> JavaScript Total: Domine do Zero ao Expert!</strong></h2>
+        <p>
+            Neste documento, você encontrará uma introdução abrangente ao mundo incrível da linguagem de programação JavaScript.
+
+            O JavaScript é uma das linguagens mais populares e amplamente utilizadas no desenvolvimento web. Com ela, você será capaz de criar interatividade, dinamismo e funcionalidades avançadas em suas páginas da web. Neste curso, iremos explorar os conceitos essenciais que irão solidificar sua base de conhecimento e capacitar você a desenvolver aplicações incríveis.
+            
+            Durante o curso, você terá a oportunidade de mergulhar nos fundamentos do JavaScript, desde a sintaxe básica até os conceitos mais avançados. Vamos aprender sobre variáveis, estruturas de controle, funções, objetos e muito mais. Além disso, vamos praticar com exercícios e projetos para consolidar o aprendizado e estimular sua criatividade.
+            
+            Nosso objetivo é proporcionar a você uma experiência de aprendizado envolvente, desafiadora e, ao mesmo tempo, divertida. Acreditamos que o aprendizado efetivo ocorre quando nos sentimos motivados e engajados com o conteúdo. Portanto, vamos explorar exemplos práticos, dicas úteis e exercícios interativos para garantir que você possa aplicar o conhecimento adquirido de forma efetiva.        
+    
+        </p>
+
+
+    </body>
+</html>

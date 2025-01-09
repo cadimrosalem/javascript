@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+}
+
+.converter {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.input-group {
+  margin: 15px 0;
+}
+
+input {
+  width: 270px !important;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+select {
+  width: 270px !important;
+  padding: 8px;
+  border: 2px solid black;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.normalMessage {
+  background-color: white;
+  padding: 10px;
+  color: blue;
+}
+
+.errorMessage {
+  background-color: red;
+  padding: 10px;
+  color: white;
+}

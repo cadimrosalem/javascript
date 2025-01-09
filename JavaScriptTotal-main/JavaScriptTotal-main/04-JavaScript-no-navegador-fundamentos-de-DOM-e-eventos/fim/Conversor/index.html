@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Conversor de Unidades</title>
+  </head>
+  <body>
+    <div class="converter">
+      <h1>Conversor de Unidades</h1>
+      <div class="input-group">
+        <input
+          type="number"
+          id="value-to-convert"
+          placeholder="Digite o valor"
+        />
+        <select id="unit-selector">
+          <option value="cm">Centímetros (cm) em Polegadas (in)</option>
+          <option value="in">Polegadas (in) em Centímetros (cm)</option>
+          <option value="m">Metros (m) em Polegadas (in)</option>
+          <option value="ft">Pés (ft) em Centímetros (cm)</option>
+        </select>
+      </div>
+      <button id="convert-button">Converter</button>
+      <button id="limpar">Limpar</button>
+      <p id="result"></p>
+      <p id="historyText"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
