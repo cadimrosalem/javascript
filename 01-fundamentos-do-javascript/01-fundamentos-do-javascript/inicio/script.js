@@ -38,6 +38,7 @@
         */
 
         // Declaração de variável
+        
         /*
         var nome = "João";
         console.log(nome);
@@ -46,6 +47,7 @@
         console.log("O nome é "+nome);
         */
 
+        
         var idade = 25;
         var altura = 1.80;
         var possuiCarro = true;
@@ -67,3 +69,13 @@
         console.log("Idade: ",idade);
         console.log("Altura: ",altura);
         console.log("Possui carro? ",possuiCarro);
+        
+
+        /*
+        CamelCase
+
+        UpperCamelCase 
+        lowerCamelCase
+        */
+
+        
