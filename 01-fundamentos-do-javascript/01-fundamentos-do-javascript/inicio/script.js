@@ -79,6 +79,7 @@
         lowerCamelCase
         */
 
+        /*
         // Variáveis numéricas        
         let idade = 25;
         let altura = 1.75;
@@ -113,5 +114,22 @@
         // Bigint
         let valorEnorme = 12321904812908214n;
         console.log(typeof valorEnorme);
+        */
+
+        /*
+        var: possui um valor global que funciona em qualquer parte do código. (não muito utilizável)
+        let: usada para reatribuir um valor.
+        const (constante): indica uma variável que não vai mudar.
+        */
+
+        let nome = "Maria";
+        nome = "José";
+        console.log(nome)
+
+        const pi = 3.1415;
+
+
+
+
 
         
