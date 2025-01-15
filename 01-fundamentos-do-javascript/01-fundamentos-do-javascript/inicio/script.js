@@ -122,11 +122,111 @@
         const (constante): indica uma variável que não vai mudar.
         */
 
+        /*
         let nome = "Maria";
         nome = "José";
         console.log(nome)
 
         const pi = 3.1415;
+        */
+
+        // Operadores Aritméticos
+        /*
+        Soma:
+        const a = 5;
+        const b = 3;
+        const soma = a + b;
+        console.log(soma);
+        */
+
+        /*
+        Subtração:
+        const a = 8;
+        const b = 3;
+        const subtracao = a - b;
+        console.log(subtracao);
+        */
+
+        /*
+        Multiplicação:
+        const a = 4;
+        const b = 5;
+        const multiplicacao = 5 * 4;
+        console.log(multiplicacao);
+        */
+
+        /*
+        Divisão:
+        const a = 10;
+        const b = 2;
+        const divisao = a / b;
+        console.log(divisao);
+        */
+        
+        /*
+        Módulo (%):
+        const a = 10;
+        const b = 3;
+        const modulo = a % b;
+        console.log(modulo);
+        */
+
+        /*
+        Índice de massa corporal
+        const peso = 56; // peso em quilogramas
+        const altura = 1.70; // altura em metros
+        const imc = peso / (altura * altura);
+        console.log(imc);
+        console.log(imc.toFixed(2));
+        */
+
+        /*
+        Cálculo de média de notas
+        const nota1 = 8.75;
+        const nota2 = 2.02;
+        const nota3 = 9.01;
+        const media = (nota1 + nota2 + nota3) / 3;
+        console.log(media.toFixed(1));
+        */
+
+        /*
+        Converter Celsius -> Farenheit
+        const celsius = 100;
+        const farenheit = (celsius * 9 / 5) + 32;
+        console.log(farenheit);
+        */
+
+        /*
+        Cálculo do perímetro e a área de um Círculo
+        const pi = 3.14159;
+        const raio = 5;
+        const perimetro = 2 * pi * raio;
+        const area = pi * (raio ** 2); // (** - Potência / Elevado a)
+        console.log(perimetro);
+        console.log(area);
+        */
+
+        /*
+        Concatenar String (+)
+        const nome = "João";
+        const sobrenome = "Silva";
+        const nomeCompleto = nome + " " + sobrenome; 
+        console.log(nomeCompleto);
+        */
+
+        /*
+        const produto = "canetas";
+        const quantidade = 5
+        const msg = "Você comprou " + quantidade + " " + produto;
+        console.log(msg);
+        */
+
+        
+
+
+
+
+
 
 
 
