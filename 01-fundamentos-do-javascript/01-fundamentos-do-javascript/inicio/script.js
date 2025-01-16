@@ -221,7 +221,132 @@
         console.log(msg);
         */
 
+        /*
+        Operador de Incremento (++)
+        let a = 5;
+        console.log(a);
+        a++; // a = a + 1;
+        console.log(a);
+        */
+
+        /*
+        Operador de Decremento (--)
+        let a = 5;
+        a--; // a = a - 1;
+        console.log(a);
+        */
+
+        /*
+        Operador de Atribuição (=)
+        let a = 10;
+        */
+
+        /*
+        Operador de Atribuição com Incremento (+=)
+        let a = 10;
+        console.log(a);
+
+        a += 2;
+        console.log(a);
+        */
+
+        /*
+        Operador de Atrbuição com Decremento (-=)
+        let a = 10;
+        a -= 4;
+        console.log(a);
+        */
+
+        /*
+        let num = 20;
+        num /= 5; // num = num / 5;        
+        console.log(num);
+        */
+
+        /*
+        let num = 10;
+        num *= 2; // num = num * 2;
+        console.log(num);
+        */
+
+        // Operadores de Comparação:
+        /*
+        Igualdade (==)
+        const a = 5;
+        const b = 6;
+        console.log(a == b); // false (a não é igual a b);
+        console.log(a == a); // true
+        */
+
+        /*
+        Diferente (!=)
+        const a = 5;
+        const b = 6;
+        const c = 6;
+        console.log(a != b); // true (a é diferente de b);
+        console.log(b != c); // false (b não é diferente de c);
+        */
+
+        /*
+        Menor (<)
+        const a = 2;
+        const b = 1;
+        console.log(a < b); // false (a não é menor que b);
+        console.log(b < a); // true (b é menor que a);
+        */
+
+        /*
+        Maior (>) / Maior igual (>=)
+        const a = 2;
+        const b = 1;
+        console.log(a > b); // true (a é maior que b);
+        console.log(b > a); // false (b não é maior que a);
+
+        const c = 2;
+        console.log(a >= c); // true (a é maior ou igual a c);
+
+        const d = 4;
+        console.log(a >= c + b); // false
+        */
+
+        /*
+        Menor igual (<=)
+        const a = 2;
+        const b = 2;
+        const c = 3;
+        const d = 4;
+        console.log(a < b); // false
+        console.log(b <= a); // true
+        console.log(c <= d); // true
+        console.log(d <= c - a); // false
+        */
+
+        /*
+        Verificar se um número é positivo
+        let num = 5;
+        let positivo = (num > 0);
+        console.log("O número é positivo?", positivo); // true
+        */
+
+        /*
+        Verificar se um número é par
+        let num = 5;
+        let par = (num % 2) == 0
+        console.log("O número", num, "é par?", par); // false
+        */
+
+
+
+
         
+
+
+
+        
+
+
+
+
 
 
 
