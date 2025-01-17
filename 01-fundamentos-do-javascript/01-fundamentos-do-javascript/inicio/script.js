@@ -335,6 +335,28 @@
         console.log("O número", num, "é par?", par); // false
         */
 
+        /*
+        const res = (5 + 3) * 2;
+        console.log(res);
+
+        const msg = "Olá, " + "Mundo!";
+        console.log(msg);
+
+        const potencia = 2 ** 3 ** 2; // da direita para a esquerda
+        console.log(potencia);
+        */
+
+        // Analisando a Precedência de Operadores
+        const res = 10 - 2 + 3 > 5; // true
+        console.log(res);
+
+        let potencia = ((2 ** (3 ** 2)) > 100); // true
+        console.log(potencia);
+
+        const divisao = (((10 / 2) / 5) < 2); // true
+        console.log(divisao);
+
+
 
 
 
