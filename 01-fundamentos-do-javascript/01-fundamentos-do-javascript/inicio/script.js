@@ -346,7 +346,8 @@
         console.log(potencia);
         */
 
-        // Analisando a Precedência de Operadores
+        /*
+        Analisando a Precedência de Operadores
         const res = 10 - 2 + 3 > 5; // true
         console.log(res);
 
@@ -355,6 +356,30 @@
 
         const divisao = (((10 / 2) / 5) < 2); // true
         console.log(divisao);
+        */
+
+        /*
+        Strings e Templates Literais
+        const mensagem = "Olá, Mundo!";
+        const nome = "Maria";
+        const cumprimento = "Bem vinda"
+        const mensagem = cumprimento + ", " + nome +"!";
+        console.log(mensagem);
+        */
+
+        /*
+        const cumprimento = "Olá";
+        const nome = "João";
+        const mensagem = `${cumprimento} ${nome}, Seja bem vindo!`;
+        console.log(mensagem);
+        */
+
+        /*
+        const idade = 25;
+        const texto = `Eu tenho ${idade} anos.`;
+        console.log(texto);
+        */
+
 
 
 
