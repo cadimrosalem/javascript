@@ -380,6 +380,17 @@
         console.log(texto);
         */
 
+        /*
+        Prompt
+        const nome = prompt('Qual é o seu nome?');
+        console.log(`Olá, ${nome}, seja bem vindo!`);
+        */
+
+        const numero = prompt('Digite um número:');
+        const quadrado = numero ** 2;
+        console.log(`O número informado é ${numero} e o seu quadrado é ${quadrado}.`);
+
+        
 
 
 
