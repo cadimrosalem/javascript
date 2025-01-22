@@ -390,8 +390,44 @@
         console.log(`O número informado é ${numero} e o seu quadrado é ${quadrado}.`);
         */
 
-       
+       /*
+       If - Estrutura condicional
 
+       const num = 18;
+
+       console.log('Início');
+
+       if (num > 0){
+        // Só será executado se a condição for verdadeira
+        console.log('O número é positivo')
+       }
+
+       console.log('Fim');
+       */
+
+       /*
+       let logado = true;
+       if (logado){
+        console.log('Bem vindo, usuário!');
+       }
+       */
+      
+       /*
+       let num = 1;
+       if (num != 0){
+        console.log('Diferente de zero')
+       }
+       */
+      
+       let idade = 18;
+       if (idade >= 18){
+        console.log('Você é maior de idade');
+       } else {
+        console.log('Você é menor de idade')
+       }
+       
+       
+      
         
 
 
