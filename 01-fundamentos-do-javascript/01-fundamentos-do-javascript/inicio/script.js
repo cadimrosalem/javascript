@@ -391,6 +391,7 @@
         */
 
        /*
+
        If - Estrutura condicional
 
        const num = 18;
@@ -428,8 +429,57 @@
        }
        */
       
+       /* 
+       Exemplos do IF
+
+       let tecla = " "; // Atribuir um valor
+       if (tecla == " "){ // Comparar os valores
+        console.log("O personagem pula");
+       } else {
+        console.log("O personagem continua correndo");
+       }
+       */
+
+       /*
+       Verificar se um número é par
        
+       const num = 140;
+       if (num % 2 == 0){
+        console.log(`O número ${num} é par`)
+       } else {
+        console.log(`O número ${num} é ímpar`)
+       }
+       */
+      
+       /*
+       Passou de ano?
+
+       const mGeral = 60; // de 0 a 100
+       if (mGeral >= 60){
+        console.log('Parabéns!')
+        console.log('Você passou de ano!')
+       } else {
+        console.log('Que pena!')
+        console.log('Você não passou de ano!')
+       }
+       */
+      
+       /*
+        Conferir a senha
+
+       const palavraSecreta = "8j7w";
+       const senhaDig = prompt('Qual é a senha?')
+       if (palavraSecreta == senhaDig){
+        console.log('Você acertou a senha!')
+        console.log('Acesso ao sistema liberado')
+       } else {
+        console.log('Você não acertou a senha!')
+        console.log('Acesso ao sistema bloqueado')
+       }
+       */ 
+
        
+
        
       
         
