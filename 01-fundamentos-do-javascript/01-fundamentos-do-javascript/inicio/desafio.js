@@ -59,3 +59,15 @@ console.log(resP.toFixed(2));
 const vencedor = resJ > resP;
 console.log(vencedor);
 
+const difJ = resJ - resP;
+console.log(difJ.toFixed());
+
+const difP = resP - resJ;
+console.log(difP.toFixed());
+
+if (resJ > resP) {
+    console.log(`O atleta ${nAtleta1} venceu o atleta ${nAtleta2} por uma diferença de ${difJ.toFixed()} pontos.`);
+} else {
+    console.log(`O atleta ${nAtleta2} venceu o atleta ${nAtleta1} por uma diferença de ${difP.toFixed()} pontos.`);
+}
+
